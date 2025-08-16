@@ -8,4 +8,4 @@ terrain_tool/
 MJDATA.TXT
 unitree_mujoco/MJDATA.TXT
 unitree_mujoco/MUJOCO_LOG.TXT
-
+unitree_mujoco/simulate
