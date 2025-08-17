@@ -1,2 +1,0 @@
-unitree_mujoco
-unitree_sdk2py
