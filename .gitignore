@@ -10,3 +10,4 @@ unitree_mujoco/MJDATA.TXT
 unitree_mujoco/MUJOCO_LOG.TXT
 unitree_mujoco/simulate
 unitree_sdk2py.egg-info/
+unitree_mujoco/simulate_python/MUJOCO_LOG.TXT
