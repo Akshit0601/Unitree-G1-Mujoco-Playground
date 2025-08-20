@@ -1,6 +1,8 @@
+import os
+
 ROBOT = "g1" # Robot name, "go2", "b2", "b2w", "h1", "go2w", "g1" 
 # ROBOT_SCENE = "/unitree_robots/" + ROBOT + "/scene_23dof.xml" # Robot scene
-ROBOT_SCENE = "/home/akshit/methdai_ass/unitree_sdk2_python/unitree_mujoco/unitree_robots/g1/scene_23dof.xml"
+ROBOT_SCENE = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))),'unitree_robots/g1/scene_23dof.xml')
 DOMAIN_ID = 1 # Domain id
 INTERFACE = "lo" # Interface 
 

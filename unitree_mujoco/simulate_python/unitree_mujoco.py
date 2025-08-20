@@ -5,13 +5,13 @@ from threading import Thread
 import threading
 from unitree_sdk2py.core.channel import ChannelFactoryInitialize
 from unitree_sdk2py_bridge import UnitreeSdk2Bridge, ElasticBand
-
+import os
 import config
 
 
 locker = threading.Lock()
-
-mj_model = mujoco.MjModel.from_xml_path(config.ROBOT_SCENE)
+xml_path = config.ROBOT_SCENE
+mj_model = mujoco.MjModel.from_xml_path(xml_path)
 mj_data = mujoco.MjData(mj_model)
 
 
